@@ -1,0 +1,22 @@
+function[IC, IS] = contours(I, F1, F2, seuil)
+    % Appliquer les filtres F1 et F2 à l'image I
+    I1 = filter2(F1, I);
+    I2 = filter2(F2, I);
+    
+    % Combiner les images filtrées pour obtenir la magnitude du gradient
+    IC = sqrt(I1.*I1 + I2.*I2);
+    
+    % Si l'image est en niveaux de gris sur une échelle de 0 à 255, normaliser
+    if max(I(:)) > 1  % Si les valeurs sont supérieures à 1, c'est du 8-bit
+        I = double(I) / 255;  % Normaliser entre 0 et 1
+    end
+    
+    % Appliquer le seuillage binaire avec im2bw
+    IS = im2bw(I, seuil);
+    
+    % Afficher les résultats
+    figure;
+    subplot(1, 3, 1), imshow(I, []), title('Image originale');
+    subplot(1, 3, 2), imshow(IC, []), title('Magnitude des contours');
+    subplot(1, 3, 3), imshow(IS), title('Image binaire seuillée');
+end

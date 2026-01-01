@@ -1,0 +1,16 @@
+.bloc{
+    border: solid 2px blue;
+    margin-left: 10%;
+    margin-right:70% ;
+}
+td,th{
+    border: solid 2px blue;
+    width: 5px;
+    text-align: center;
+}
+table{
+    text-align: center;
+    border-spacing: 10px;
+    
+    
+}

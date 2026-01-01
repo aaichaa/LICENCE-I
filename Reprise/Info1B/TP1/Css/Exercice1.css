@@ -1,0 +1,57 @@
+
+
+
+
+.exposant{
+
+    vertical-align: super; 
+    
+}
+
+.expo {
+    color:blue;
+    font-size: 1cm
+}
+
+#span1{
+    font-size: 8em;
+    color: red;
+   
+    
+}
+#span2{
+    font-size: 6em;
+    color: blue;
+    
+    
+}
+#span3{
+    font-size: 5em;
+    color: aqua;
+    
+    
+}
+#span4{
+    font-size: 4em;
+    color: blueviolet;
+   
+    
+}
+#span5{
+    font-size: 5em;
+    color: black;
+  
+    
+}
+#span6{
+    font-size: 6em;
+  color: darkblue;
+    
+    
+}
+#span7{
+    font-size: 7em;
+    color: cornflowerblue;
+   
+    
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xml:lang="fr" lang="fr">
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="../Css/Exercice2.css" />
+
+        <title>
+            Exo2
+        </title>
+    </head>
+
+    <body>
+        <h1>Merci de payer la ou les cotisation(s) selon le(s) sport(s)</h1>
+
+        <form method="post" action="" >
+            <fieldset class="center">
+                <legend >Choix du sport</legend>
+            <p>
+              
+                <input type="checkbox" name="jeux" value="Handball"
+                    checked="checked" />Handball<br>
+                <input type="checkbox" name="jeux" value="Football"
+                    id="sport" />
+                <label for="sport">Football</label><br>
+                <input type="checkbox" name="jeux" value="Baseball" />Baseball
+                <br>
+                <input type="checkbox" name="jeux" value="Basket-ball"
+                    checked="checked" />Basket-ball
+            </p>
+        </fieldset>
+
+            <hr>
+            <fieldset class="center">
+
+            <legend  class="coul"> Paiement par:</legend>
+            <p>
+                
+                <input type="radio" name="paiement" value="CB"
+                    checked="checked" /> CB
+                <label for="code" id="label"> Votre code</label>
+                <input type="password" name="paiement" id="code" /> <br/>
+
+                <input type="radio" name="paiement" value="Liquide"
+                    id="payer" />
+                <label for="payer"> Liquide</label> <br/>
+
+                <input type="radio" name="paiement" value="Chèque" /> chèque
+                <br>
+            </p>
+        </fieldset>
+
+            <hr>
+
+            <fieldset  class="center">
+                <legend class="align">Zone bouton :</legend>
+                <p class="align">
+                    <input type="submit" value="Valider" />
+                    <input type="reset" value="Effacer"/>
+                </p>
+            </fieldset>
+        </form>
+
+    </body>
+</html>

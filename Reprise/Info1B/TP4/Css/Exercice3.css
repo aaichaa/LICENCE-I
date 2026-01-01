@@ -1,0 +1,26 @@
+body{
+    background-color:rgb(177, 245, 245);
+}
+.color{
+    background-color: bisque;
+}
+.bordure{
+    border-top: dashed 3px red;
+    border-left: dashed 2px red;
+    border-right: dashed 2px red;
+}
+#nombre{
+    background-color: aquamarine;
+    margin-right: 70px;
+}
+#chiffre{
+    background-color: aquamarine;
+    margin-right: 70px;
+}
+#label {
+    margin-left: 100px;
+}
+#line{
+    text-decoration: underline;
+    font-weight: bold;
+}

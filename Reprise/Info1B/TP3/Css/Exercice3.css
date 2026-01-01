@@ -1,0 +1,57 @@
+.bloc{
+    border: solid 2px red;
+    text-align: center;
+    margin-left: 30%;
+    margin-right:30% ;
+}
+td,th{
+    border: solid 2px RED;
+  
+    text-align: center;
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+h1{
+    text-align: center;
+}
+.noir{
+    background-color: black;
+}
+.under{
+    text-decoration: underline;
+    color: rgb(171, 33, 56);
+}
+.jaune{
+    background-color: yellow;
+}
+.rose{
+    background-color: rgb(219, 19, 172);
+    color: white;
+}
+.blue{
+    background-color: aqua;
+}
+.temps{
+    border: solid 2px red;
+   background-color: aqua;
+   margin-right: 65%;
+   text-align: center;
+   margin-left: 30%;
+  
+ 
+}
+.test{
+    border: solid 2px red;
+   background-color: yellow;
+   margin-right: 65%;
+   text-align: center;
+   margin-left: 30%;
+  
+ 
+}
+.gris{
+    background-color: gray;
+}

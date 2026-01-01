@@ -1,0 +1,29 @@
+.espace{
+    word-spacing: 15px;
+    letter-spacing: 2px;
+    
+}
+#gras{
+    font-weight: bold;
+}
+#under{
+    text-decoration: underline;
+}
+#italiques{
+    font-style: italic;
+}
+#raye{
+    text-decoration: line-through;
+}
+#gros{
+    font-size: 30px;
+}
+#petit{
+    font-size: 10px;
+}
+#expo{
+    vertical-align: super;
+}
+#esp{
+    letter-spacing: 15px;
+}

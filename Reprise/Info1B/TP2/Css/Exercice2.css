@@ -1,0 +1,31 @@
+.fond{
+    background-color: yellow;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.test{
+    text-align: center;
+    border:solid 1px;
+    border-color: red;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+.cercle{
+    list-style: circle;
+}
+.color{
+    background-color: rgb(226, 43, 168);
+    margin-left: 5px;
+    margin-right: 10px;
+   
+
+}
+#gras{
+    font-weight:bold ;
+    text-decoration: underline;
+}
+#image{
+    list-style-image: url("BoutonVert.gif");
+    
+}

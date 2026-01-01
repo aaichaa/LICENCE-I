@@ -1,0 +1,11 @@
+public class Exercice2{
+    public static void main(String [] args){
+        String numero="";
+        do {
+            System.out.println("Donner un numéro de sécurité sociale:");
+            numero = Lire.S();
+            
+        }while(numero.length()!= 13)
+        
+    }
+}

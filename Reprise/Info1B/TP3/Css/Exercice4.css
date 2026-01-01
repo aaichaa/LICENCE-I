@@ -1,0 +1,30 @@
+/*.titre{
+    text-align: center;
+    border: dashed 3px RED;
+    margin-right: 60%;
+    text-align: center;
+    margin-left: 30%;
+}
+*/
+table {
+    border-collapse: collapse;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid black; /* Bordure principale */
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black; /* Bordure fine par défaut */
+}
+
+.thick-right {
+    border-right: 3px solid black;
+}
+
+.thick-bottom {
+    border-bottom: 3px solid black;
+}

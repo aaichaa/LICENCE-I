@@ -1,0 +1,27 @@
+body{
+    background-color: yellow;
+}
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+h2{
+    background-color: rgb(150, 250, 150);
+    color: red;
+}
+#roman{
+    list-style-type: lower-roman;
+    color: red;
+}
+#grec{
+    list-style-type: lower-greek;
+    color: blue;
+}
+.color{
+    color: red;
+}
+.gras{
+    font-weight: bold;
+    text-decoration: underline;
+}

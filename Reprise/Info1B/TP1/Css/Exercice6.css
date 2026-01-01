@@ -1,0 +1,43 @@
+.mini{
+    background-color:palevioletred;
+    margin: 500px;
+    border: solid;
+
+}
+.alors{ 
+    text-decoration-line: underline;
+    text-align: center;
+    color: black;
+    
+}
+.gras{
+    font-weight: bold;
+}
+.petit{
+    font-style: italic;
+}
+.test{
+    padding: 20px;
+}
+hr{
+    height: 3px;
+    background-color: green;
+}
+.rouge{
+    background-color: red;
+    height: 6px;
+    width: 50%;
+   
+    
+}
+.vert{
+    background-color: rgb(124, 249, 105);
+    height: 6px;
+    width: 50%;
+}
+.blanc{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    padding-bottom: 50px;
+}

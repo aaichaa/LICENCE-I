@@ -1,0 +1,17 @@
+.total{
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    border-top: solid 10px rgb(243, 213, 23);
+}
+.bloc{
+    margin-top: 25%;
+}
+.bouton{
+    background-color: yellow;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+    font-size: 50px;
+    padding-bottom: 25px;
+}
