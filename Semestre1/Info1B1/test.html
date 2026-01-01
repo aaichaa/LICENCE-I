@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notation polonaise inversée</title>
+    <link rel="stylesheet" href="css/polonaiseInversee.css">
+    <script src="js/polonaiseInversee.js" defer></script>
+</head>
+<body onload="init()">
+    <h1>Notation polonaise inversée</h1>
+    <p>Variable : <span id="tab"></span></p>
+
+    <ul>
+        <li><code>tab.push(toto)</code> suivi de la variable <span id="tab-push"></span></li>
+        <li><code>tab.pop()</code> suivi de la variable <span id="tab-pop"></span>. 
+            <strong><u>dernier élément</u></strong>
+        </li>
+    </ul>
+
+    <form id="HP28">
+        <!-- Division "menu" -->
+        <div id="menu">
+            <fieldset>
+                <legend>Votre choix de fonction ?</legend>
+                <label>
+                    <input type="radio" name="operation" id="choixOperation" onclick="operations()" checked>
+                    Pas d'opération
+                </label><br>
+                <label>
+                    <input type="radio" name="operation" id="addition" onclick="operations()">
+                    Addition
+                </label><br>
+                <label>
+                    <input type="radio" name="operation" id="subtraction" onclick="operations()">
+                    Soustraction
+                </label><br>
+                <label>
+                    <input type="radio" name="operation" id="multiplication" onclick="operations()">
+                    Multiplication
+                </label>
+            </fieldset>
+        </div>
+
+        <!-- Division "menDer" -->
+        <div id="menDer" style="float: right;">
+            <!-- Contenu spécifique -->
+        </div>
+
+        <fieldset>
+            <legend>Table de contrôle</legend>
+            <input type="text" id="inputValue" placeholder="Entrez un nombre">
+            <button type="button" onclick="ajouterNombre()">Entrer le nombre</button>
+            <button type="button" onclick="supprimerNombre()">Supprimer le nombre</button>
+            <button type="button" onclick="calculer()">Passer deux nombres</button>
+        </fieldset>
+    </form>
+
+    <div id="res"></div>
+</body>
+</html>

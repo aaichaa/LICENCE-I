@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">  
+       <head>
+        <meta name="author" content="DIALLO"/>
+		<meta name="copyright" content="©2025DIALLO"/>
+    	<link rel="stylesheet" type= "text/css" href="../styles/ligne.css" /> 
+		<title>ligne</title>
+
+	</head>
+	<body>
+		<div>	
+            <div class="ordonne">
+                <p ><a href="historique.html"><img class="logo" src="../media/noom.jpg" alt="noom" />HISTOIRIQUE </a></p>
+        
+                <p><a href="chambre.html"><img class="logo" src="../media/chambre.jpg" alt="exemple de chambre de l'hotel"/>TARIFS DES CHAMBRES </a></p>	
+                <p><a href="restaurant.html"><img class="logo" src="../media/noomrestaurant.jpg" alt="le restaurant" /> MENUS DU RESTAURANT</a></p>
+                
+               <p><a href="natation.html"><img class="logo" src="../media/télé.jpg" alt="pisc"/>ACCES A LA PISCINE</a></p>
+                 <p><a href="ligne.html"><img class="logo" src="../media/noomhotelconakrygn.jpg" alt="commande"/>COMMANDE EN LIGNE </a></p>
+                 <p><a href="quizz.html"><img class="logo" src="../media/téléchargement.png" alt="un petit quizz"/>QUIZZ</a></p>
+            </div>
+		</div>
+        <h1> Commandez en ligne !!! </h1>
+
+			<form id="form1" action="">
+				<fieldset>
+					<legend>Nos Menus avec les differents choix de Sandwitchs et boissons :</legend>
+					<p>Pour plus de renseignement sur nos Menus <a class="help" href="restaurant.html" >Cliquez ici</a></p>
+					<select class="yellow" name="menu1" onchange="choixsandwitch();">
+						<option>S&eacute;l&eacute;ctionner un Menu</option>                
+						<option>Le Menu pizza</option>
+						<option>Le Menu chawarma</option>
+						<option>Le Menu hamburger</option>
+				    </select>
+				   <select class="yellow" id="select2" name="menu2">
+					 <option></option>
+					 <option></option>
+					 <option></option>
+					 <option></option>
+					
+				 </select>
+				 <select id="frite" name="menu3">
+					<option>S&eacute;l&eacute;ctionner les Frites qui vous convient</option>
+					<option>Grande Frites</option>
+					<option>Moyenne Frites</option>
+					<option>Petite Frites</option>
+				 </select>
+				 <select class="color"  name="menu4" onchange="choixboisson();">
+					<option>S&eacute;l&eacute;ctionner votre Boisson</option>
+					<option>Coca</option>
+					<option>cocktail</option>
+					<option>Fanta</option>
+					<option>heineken</option>
+					<option>champagne</option>
+				 </select>
+				  <select class="color" id="select3" name="menu5">
+					<option></option>
+					<option></option>
+					<option></option>
+					<option></option>
+					<option></option>
+					<option></option>
+				 </select><br/>
+				 
+
+			 <p>
+			  <input type="submit" value="Valider ma Commande" onclick="test();" id="valid"/>
+			 </p>
+			</fieldset>
+	</form>
+    <div class="footer">
+        <p >
+            <a  href="natation.html"><img src="../media/retour.png" alt="retour" /> </a>
+        </p>
+		<p >
+			<a href="index.html"><img  class="border" src="../media/sommaire.jpg" alt="sommaire" /></a>
+		</p>
+        <p>
+        <a href="quizz.html"><img src="../media/pictosuivant.png" alt="suivant" /> </a>
+        </p>	
+
+    </div>
+
+
+
+        <script type="text/javascript" src="../javascript/ligne.js"></script>
+		 
+	</body>
+</html>

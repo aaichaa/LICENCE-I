@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(171, 165, 165);
+}
+#date {
+	color: rgb(243, 244, 250);
+}
+.noom{
+    height: 300px;
+    margin-left: 20px;
+    
+}
+section{
+	display: flex;
+}
+#haut{
+	float: right;
+   
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    
+}
+.class2{
+    padding-left: 83%;
+    width: 1px;
+    height: 2px;
+
+}
+.vid{
+    width:400px;
+     height:222px;
+     padding-left: 70%;
+}
+.video {
+    padding-left: 70%;
+    padding-top: 90px;
+}
+#section1{
+    padding-top: 90px;
+
+}
+.marge{
+    padding-top: 100px;
+
+}
+
+.ecriture{
+    padding-left: 28px;
+}
+.centrer{
+    text-align: center;
+}
+.offre{
+    width: 450px;
+    height: 250px;
+}
+.espace{
+    gap:70px
+
+}
+.milieu{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

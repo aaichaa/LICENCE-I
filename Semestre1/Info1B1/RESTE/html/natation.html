@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="DIALLO">
+        <link rel="stylesheet" type="text/css" href="../styles/natation.css" >
+
+        <title>Natation</title>
+    </head>
+    <body>
+        <header>	
+            <div class="ordonne">
+                <p ><a href="historique.html"><img class="logo" src="../media/noom.jpg" alt="noom" >HISTOIRIQUE </a></p>
+        
+                <p><a href="chambre.html"><img class="logo" src="../media/chambre.jpg" alt="exemple de chambre de l'hotel" >TARIFS DES CHAMBRES </a></p>	
+                <p><a href="restaurant.html"><img class="logo" src="../media/noomrestaurant.jpg" alt="le restaurant" > MENUS DU RESTAURANT</a></p>
+                
+               <p><a href="natation.html"><img class="logo" src="../media/télé.jpg" alt="pisc">ACCES A LA PISCINE</a></p>
+                 <p><a href="ligne.html"><img class="logo" src="../media/noomhotelconakrygn.jpg" alt="commande">COMMANDE EN LIGNE </a></p>
+                 <p><a href="quizz.html"><img class="logo" src="../media/téléchargement.png" alt="un petit quizz">QUIZZ</a></p>
+            </div>
+        </header>	
+
+  
+		  <form method="get" name="formulaireInscription" onsubmit="return validerFormulaire();">
+			<div>
+			  <h1>Inscription pour l'accès à la piscine</h1>
+		
+			  <p>
+				<label>Nom :</label>
+				<input type="text" id="nom" name="nom">
+			  </p>
+		
+			  <p>
+				<label>Prénom :</label>
+				<input type="text" name="prenom" id="prenom">
+			  </p>
+		
+			  <p>
+				<label>Sexe :</label>
+				<label>M</label>
+				<input type="radio" name="sexe" id="masculin">
+				<label>Mme</label>
+				<input type="radio" name="sexe" id="feminin">
+			  </p>
+		
+			  <p>
+				<label>Entrez votre âge :</label>
+				<input type="number" name="age" id="age" min="0" required>
+			  </p>
+		
+			  <p>
+				<label>Courriel :</label>
+				<input type="text" name="addresse" id="addresse"  placeholder="exemple@domaine.com">
+			  </p>
+		
+			  <p>
+				<label>Code postal :</label>
+				<input type="text" name="codepostal" id="codepostal" required>
+			  </p>
+		
+			  <p>
+				<label>Tél :</label>
+				<input type="text" name="tel" id="tel">
+			  </p>
+		
+			  <p>
+				<label>Ville :</label>
+				<input type="text" name="ville" id="ville">
+			  </p>
+		
+			  <p>
+				<input type="reset" id="ini" value="Initialiser">
+				<input type="submit" id="val" value="Valider">
+			  </p>
+			</div>
+		  </form>
+		
+    <footer>
+        <p>
+            <a  href="restaurant.html"><img src="../media/retour.png" alt="retour"> </a>
+        </p>	
+		<p >
+			<a href="index.html"><img  class="border" src="../media/sommaire.jpg" alt="sommaire" ></a>
+		</p>
+        <p>
+        <a href="ligne.html"><img src="../media/pictosuivant.png" alt="suivant"> </a>
+        </p>	
+    </footer>
+        
+        <script  src="../javascript/natation.js"> </script>
+    </body>
+</html>

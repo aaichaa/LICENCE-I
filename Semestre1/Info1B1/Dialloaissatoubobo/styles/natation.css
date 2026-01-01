@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(171, 165, 165);
+}
+
+
+.logo
+{
+	display: block;
+	width:220px;
+	height:90px;
+}
+
+div.ordonne
+{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: stretch;
+		align-content: center;
+		background-color: gray;
+		text-align: center;
+
+}
+
+a
+{
+	color:gold;
+	text-decoration:none;
+}
+
+
+
+h1{
+	background-color: rgb(241, 173, 236);
+	color:black;
+	width:70%;
+	margin-left: 20%;
+
+}
+
+form{
+	 text-align: center;
+	 margin-top: 5%;
+	 background-color: white;
+	 margin-left: 20%;
+	 margin-right: 20%;
+}
+
+
+.left {
+	display: flex;
+	float: left;
+	
+
+}
+.right {
+	display: flex;
+	float: right;
+	margin-bottom: 10%;
+	
+
+}
+
+
+
+fieldset {
+	width: 30%;
+}
+#val{
+	border-radius: 20px;
+	background-color: greenyellow;
+}
+#ini{
+	border-radius: 20px;
+	background-color: red;
+}
+
+
+
+	footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    }
+    footer p {
+        margin: 0; 
+    }
+	.border{
+		border-radius: 20px;
+		width:50%;
+	    height:50%;
+	}
+   
+    footer a img {
+        display: block; }

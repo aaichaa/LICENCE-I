@@ -1,0 +1,50 @@
+body {
+    background-color: #aaaaaa;
+    
+
+}
+
+h1{
+    background-color:#000000 ;
+    color:white;
+    
+
+}
+.t2{
+    color: #e01451;
+
+}
+dt{
+    color: blue;
+    text-decoration: underline;
+
+}
+
+
+li{
+    background-color: #98bf3e;
+    margin-right: 2pix;
+    list-style-type: square;
+    color: white;
+    
+}
+
+ul{
+    background-color: #545454;
+    margin-top: 0;
+
+
+}
+.zeugma {
+    font-weight: bold;
+    color: black;
+    text-decoration: overline;
+}
+dl{
+    background-color: orange;
+    margin-right: 10px;
+    margin-left: 10px;
+
+
+}
+

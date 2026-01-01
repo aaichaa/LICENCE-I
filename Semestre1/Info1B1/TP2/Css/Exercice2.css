@@ -1,0 +1,26 @@
+h1{
+    border: red solid 1px;
+    text-align: center;
+}
+dl{
+    background-color: yellow;
+
+    
+}
+#signe{
+    list-style-type: circle;
+}
+#paroles{
+    list-style-type: none;
+}
+{
+    background-color: blueviolet;
+}
+
+span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+#windows{
+    
+}
